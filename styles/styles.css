@@ -1,0 +1,99 @@
+body {
+}
+
+header {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 100%;
+    background-color: black;
+}
+
+header h1 {
+    flex: 1 0 30%;
+    font-size: 2vw;
+    color: floralwhite;
+}
+
+#needed {
+  justify-content: flex-end;
+  text-align: right;
+  color: white;
+  flex: 1 0 100%;
+  margin-right: 5px;
+}
+
+.ui-progressbar-value{
+  display: flex;
+}
+
+.ui-progressbar-value div {
+  width: 100%;
+  text-align: center;
+}
+
+#progress {
+    flex: 2 0 69.8%;
+    float: left;
+}
+
+#boxes table{
+    border-collapse: collapse;
+    text-align: left;
+    justify-content: space-around;
+}
+
+#boxes {
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    background: #fff; overflow: hidden; border: 2px solid #991821;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 70px;
+    font-family: serif;
+    text-transform: capitalize;
+}
+
+#boxes table td, #boxes table th {
+    width: 100px;
+}
+
+#boxes table {
+    padding-top: 10px;
+    border-left: 1px solid #00496B;
+    border-right: 1px solid #00496B;
+    border-bottom: 1px solid #00496B;
+}
+
+#boxes table thead th {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #991821), color-stop(1, #80141C) );
+    background:-moz-linear-gradient( center top, #991821 5%, #80141C 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#991821', endColorstr='#80141C');
+    background-color:#991821;
+    color:#FFFFFF;
+    font-size: 15px;
+    font-weight: normal;
+    border-left: 1px solid #B01C26;
+}
+
+#boxes table thead th:first-child {
+    border: none;
+}
+
+#boxes table tbody td {
+    color: #000000;
+    border-left: 1px solid #00496B;
+    font-size: 10px;
+    border-bottom: 1px solid #00496B;
+    font-weight: normal;
+}
+
+#boxes table tbody td:first-child {
+    border-left: none;
+}
+
+#boxes table tbody tr:last-child td {
+    border-bottom: none;
+}
